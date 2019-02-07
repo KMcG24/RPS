@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>
-      Rock, Scissors, Paper
+      Rock, Paper, Scissors
     </title>
   </head>
   <style>
@@ -12,14 +12,33 @@
   </style>
 
   <body>
+    <h1>
+      ROCK PAPER SCISSORS
+    </h1>
+
+    <h3>Can YOU beat the computer?</h3>
+
     <script src="./index.js"></script>
     <div class="container">
-      <p>1</p>
-      <p>2</p>
-      <p>3</p>
-
       <!--this button needs to be attached to a function-->
-      <button type="`button`">Rock</button>
+      <!--<button type="`button`">Rock</button>-->
+      <button onclick="playGame('rock')">Rock</button>
     </div>
+
+    <p></p>
+
+    <div class="container">
+      <!--this button needs to be attached to a function-->
+      <!--<button type="`button`">Rock</button>-->
+      <button onclick="playGame('paper')">Paper</button>
+    </div>
+
+    <div class="container">
+      <!--this button needs to be attached to a function-->
+      <!--<button type="`button`">Rock</button>-->
+      <button onclick="playGame('scissors')">Scissors</button>
+    </div>
+
+    <div></div>
   </body>
 </html>
